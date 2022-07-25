@@ -6,6 +6,5 @@
 
 - I made this project in 3-4hr and i took most of the time for adjusting font size, background color and padding.The link of the project is below:
 
-[Link for project-2](https://project2-25722.netlify.app/)
+[![badge](https://img.shields.io/badge/Link-Project--3-lightgrey)](https://project2-25722.netlify.app/)
 
-![badge](https://img.shields.io/badge/Project--2-second%20website-green)

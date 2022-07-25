@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+.container {
+  background: linear-gradient(0deg, rgba(29, 39, 73, 0.75), rgba(29, 39, 73, 0.75)), url(./assets/pexels-maxyne-barcel-10402282\ 1.png) repeat;
+  background-position: top;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  padding: 40px 80px;
+  position: relative;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: baseline;
+}
+
+.first {
+  flex: 1;
+}
+
+.first>img {
+  width: 50%;
+}
+
+.second {
+  flex: 2;
+}
+
+.third {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: transparent;
+  color: #fbc232;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 2px 60px 2px 1px;
+  transition: all 300ms ease-in-out;
+  padding-bottom: 2px;
+  background: linear-gradient(#fbc232, #fbc232)left bottom;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+}
+
+.list-item:hover {
+  font-weight: 500;
+  font-size: larger;
+  background-size: 60% 2px;
+  cursor: pointer;
+}
+
+.button-small {
+  background-color: #ee4b5d;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 10px 36px;
+  border: none;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+.button-small:hover {
+  cursor: pointer;
+  padding: 14px 40px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: Dela Gothic One;
+  color: #fbc232;
+  text-align: center;
+  font-size: 4em;
+  padding: 1px 180px;
+}
+
+.button-large {
+  color: #fff;
+  background-color: #ee4b5d;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 30px 0px 20px 0px;
+  transition: all 300ms ease-in-out;
+}
+
+.button-large:hover {
+  cursor: pointer;
+  padding: 24px 48px;
+
+}
+
+.bottom {
+  position: fixed;
+  bottom: 40px;
+  right: 60px;
+
+}
+
+.bottom div>img {
+  width: 60%;
+}
